@@ -1,0 +1,153 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("./images/Yoda.webp");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    width: 1000px;
+}
+
+.box-title{
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: 145px;
+    position: absolute;
+    bottom: -30px;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.box-content{
+    width: 80%;
+}
+
+H1 .yoda{
+    font-weight: bold;
+}
+
+.box-content H1{
+    font-family: 'roboto';
+    font-size: 24px;
+}
+
+
+.yoda-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 100%;
+}
+
+.yoda-picture{
+    flex-basis: 40%;
+    max-width: 196px;
+    max-height: 189px;
+}
+
+.yoda-picture img{
+    max-width: 200px;
+    max-height: 190px;
+    border-radius: 10px;
+}
+
+.yoda-content{
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.yoda-content p{
+    font-family: 'roboto';
+    font-size: 16px;
+}
+
+.yoda-description:last-child{
+    flex-basis: 30%;
+    justify-content: center;
+    text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+
+.yoda-description ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.slider{
+    height: 400px;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+
+.slider-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+}
+
+h3{
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-image: url('/images/les-derniers-jedi.jpg');
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+
+
+
